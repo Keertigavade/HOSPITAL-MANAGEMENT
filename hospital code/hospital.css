@@ -1,0 +1,230 @@
+*{
+    margin:0%;
+    padding:0%;
+    
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color:white;
+
+}
+span{
+    color: brown;
+    font-size:50px;
+    align-items: center;
+    text-decoration: underline;
+    padding:30px;
+    margin-top:20px;
+    font-family: bold;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:black;
+    color:rgb(151, 117, 117);
+    position:fixed;  
+    display: flex;
+    text-decoration: underline;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding:20px;
+    text-decoration: underline  ;
+    
+    
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 138, 138);
+    font-size: 22px;
+    margin-inline: 22px;
+}
+.logo{
+    font-size: 22px;
+}
+.main{ 
+    font size: 90px; 
+  background-color:rgb(0, 138, 138);
+  padding: 33px;
+}
+.main img{
+    width: 1120px;
+    height:500px;
+    
+}
+.mainText {
+    margin-top:40px;
+    text-align:center;
+    color: azure;
+
+}
+.mainText h1{
+    font-size: 66px;
+    bottom:30px ;
+}
+.mainText p{
+    margin-top: 40px;
+}
+.mainText button{
+    margin-top: 20px;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    background-color:white;
+    font-size:15px;
+    border: none;
+}
+.head{
+    text-align: center;
+    padding:88px;
+}
+.SERVICES{
+    display:flex;
+     flex-Wrap:wrap;
+    justify-content: center;
+}
+.SERVICES .service-Card{
+    width: 250px;
+    height:190px ;
+    padding: 22px;
+    border:2px solid black;
+    text-align:center;
+    overflow: hidden;
+    margin-inline:22px;
+}
+.DOCTORS{
+    width:1100px;
+    height: 350px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(0, 138, 138);
+}
+.team{
+    width:100%;
+    height: 100%;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    overflow:hidden;
+    margin: auto;
+    position: absolute;
+    transition: all 1s ease;
+    background-color: rgb(51, 150, 150);
+}
+.team img{
+    width: 240px;
+    height: 250px;
+    margin-inline: 20px;
+
+}
+.blog{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.blogcard{
+    width: 300px;
+    padding: 18px;
+    background-color:rgb(0, 138, 138);
+    text-align: center;
+    color: white;
+    margin-inline:20px ;
+    background-image:url(url(bg.jpg)) ;
+    
+    
+}
+.blogcard img{
+    width: 100%;
+    height: 250px;
+}
+.blogcard a{
+    padding: 4px 15px;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+ position: relative;
+    top:7px;
+    font-size: 20px;
+    margin-top: 11px;
+    align-items: center;
+}
+.blogcard a:hover{
+    cloor:blue;
+}
+.form{
+    width:60%;
+    padding: auto;
+   text-align: center;
+    background-color: rgb(51, 150, 150) ;
+    margin:auto;
+}
+.form input{
+    width:90%;
+    height: 20px; 
+ padding:11px;
+ margin-top: 22px;
+}
+    .from button{
+
+    width: 140px;
+    height: 40px;
+    background-color:whitesmoke; 
+     color:white; 
+     border:none;   
+     font-size:20px;   
+
+    margin-top:22px;
+}
+button:hover{
+    
+    color:blue ;
+} 
+.footer{
+display: flex;
+ justify-content:space-around;
+    padding: 60px;
+    margin-top: 60px;
+    background-color: black; 
+    color:whitesmoke ;
+}
+
+.footer p{
+    margin-top: 22px;
+
+}
+.detailedCard{
+    width: 400px;
+    padding: 42px;
+    background-color: lightblue;
+    text-align: center;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    left: 50%;
+    transform: translate(-50%,40%)
+    
+}
+@media screen and (max-width:1100px){
+    .main{
+        display:block;
+        text-align:center ;
+    }
+}
+@media screen and (max-width:850px){
+    .doctors{
+        width:90%;
+
+    }
+    .team img{
+        width: 200px;
+    }
+}
